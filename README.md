@@ -1,7 +1,7 @@
 ```markdown
 # Express API Intro
 
-Une API REST simple construite avec Express.js pour gérer des livres et des objets.
+Une API REST simple construite avec Express.js pour gérer des livres.
 
 ## Installation
 
@@ -29,10 +29,6 @@ Le serveur sera disponible sur `http://localhost:3000`
 - `POST /books` - Créer un nouveau livre
 - `PUT /books/:id` - Mettre à jour un livre
 - `DELETE /books/:id` - Supprimer un livre
-
-### Things
-- `GET /things` - Récupérer tous les objets
-- `GET /things/:id` - Récupérer un objet par ID
 
 ## Exemple d'utilisation
 

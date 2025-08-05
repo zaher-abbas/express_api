@@ -58,7 +58,7 @@ GET /books?limit=2
 - `npm start` - Démarre le serveur avec nodemon (rechargement automatique)
    Le script "start" dans package.json:
 ```
-"type": "module",
+<code>"type": "module",
   "scripts": {
     "start": "nodemon index.js"
-  },
+  },</code>

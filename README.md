@@ -49,7 +49,7 @@ GET /books?limit=2
 ```
 ## Technologies
 
-- Node.js
+- Node.js LTS v22.18.00 (gérer par NVM)
 - Express.js 5.1.0
 - Nodemon (développement)
 

@@ -13,34 +13,11 @@ app.use(express.json());
 
 const listenPort = 3000;
 
-//example:
-const things = [
-    {id: 1, name: 'Sockets'},
-    {id: 2, name: 'Pills'},
-    {id: 3, name: 'PS5'}
-]
-
-//Example on get for the route "/things" which can be accessed via localhost:3000/things
-app.get('/things', (req, res) => {
-    res.json(things);
-})
-
-//get a single thing
-app.get('/things/:id', (req, res) => {
-    const id = parseInt(req.params.id);
-    const thing = things.find(thing => thing.id === id)
-    if (thing)
-        res.json(thing);
-    else
-        res.status(404).send('Thing not found');
-})
-
 app.listen(listenPort, () => {
     console.log(`Server listening on port ${listenPort}`);
 });
 
 // we have also post, put, and delete requests
-
 const books = [
     {id: 1, title: 'The Hobbit', author: 'J.R.R.'},
     {id: 2, title: 'The Lord of the Rings', author: 'J.R.R.'},

@@ -25,6 +25,7 @@ Le serveur sera disponible sur `http://localhost:3000`
 ### Books
 - `GET /books` - Récupérer tous les livres
 - `GET /books?limit=2` - Limiter le nombre de résultats
+- `GET /books?category=fanstasy` - Filtrer les livres par ses category
 - `GET /books/:id` - Récupérer un livre par ID
 - `POST /books` - Créer un nouveau livre
 - `PUT /books/:id` - Mettre à jour un livre
